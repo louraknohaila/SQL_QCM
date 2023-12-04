@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/SQL_QCM/static/css/main.eb722f1c.css",
-    "main.js": "/SQL_QCM/static/js/main.1fa134d2.js",
+    "main.js": "/SQL_QCM/static/js/main.e4340262.js",
     "static/js/845.49ed9c8e.chunk.js": "/SQL_QCM/static/js/845.49ed9c8e.chunk.js",
     "static/media/play.mp3": "/SQL_QCM/static/media/play.8e5f6d1d81d4e1414b95.mp3",
     "static/media/correct.mp3": "/SQL_QCM/static/media/correct.160572d72c858155072e.mp3",
     "static/media/wrong.mp3": "/SQL_QCM/static/media/wrong.e946821894ae9b0a0d6f.mp3",
     "index.html": "/SQL_QCM/index.html",
     "main.eb722f1c.css.map": "/SQL_QCM/static/css/main.eb722f1c.css.map",
-    "main.1fa134d2.js.map": "/SQL_QCM/static/js/main.1fa134d2.js.map",
+    "main.e4340262.js.map": "/SQL_QCM/static/js/main.e4340262.js.map",
     "845.49ed9c8e.chunk.js.map": "/SQL_QCM/static/js/845.49ed9c8e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb722f1c.css",
-    "static/js/main.1fa134d2.js"
+    "static/js/main.e4340262.js"
   ]
 }
