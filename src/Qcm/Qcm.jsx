@@ -383,7 +383,7 @@ function QCM() {
            Rejouer
           </Link></button>
                    <button className="Quitter">
-                   <Link to="/" className="nav">
+                   <Link to="/SQL_QCM" className="nav">
                    Quitter
           </Link></button>
                 </div>
