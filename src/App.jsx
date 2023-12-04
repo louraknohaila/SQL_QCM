@@ -11,7 +11,7 @@ function App() {
   return(
     <BrowserRouter>
        <Routes>
-          <Route path="/" element={<Start/>} />
+          <Route path="/SQL_QCM" element={<Start/>} />
           <Route path="/QCM" element={<QCM/>}/>
           <Route path="/Cours" element={<Cours />}/>
        </Routes>
