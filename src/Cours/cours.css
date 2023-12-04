@@ -1,0 +1,191 @@
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.Cours{
+  position: relative;
+  left: 105px;
+  color : rgb(241, 241, 241);
+}
+.nav-link{
+  color : white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position : relative;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 500;
+  top: 30px;
+  left: 70vh;
+  letter-spacing: 2px;
+  border: 1px solid white;
+  border-bottom: 7px groove;
+  padding: 7px 30px;
+  left:29%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(1, 1, 44);
+}
+.nav-link:hover{
+  background-color: rgba(1, 1, 77, 0.644);
+}
+.titre1{
+  position : relative;
+  top: 70px;
+  left:72%;
+  transform: translate(-50%, -50%);
+  font-size: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(240, 238, 236);
+}
+.intro{
+  position : relative;
+  border-bottom: ridge;
+  padding-bottom: 2px;
+  width: 183px;
+  top: 70px;
+  left: 180px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.def{
+  position : relative;
+  right: 80px;
+  top: 85px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.div1{
+  margin-top: 30px;
+  position : relative;
+  top: 80px;
+  margin-bottom: 20px; 
+}
+
+.div2{
+  position : relative;
+  top: 80px;
+  margin-bottom: 20px; 
+}
+.div3{
+  position : relative;
+  top: 80px;
+  margin-bottom: 20px; 
+}
+.div4{
+  position : relative;
+  top: 80px;
+  margin-bottom: 20px; 
+}
+.div5{
+  position : relative;
+  top: 80px;
+  margin-bottom: 20px; 
+}
+.div6{
+  position : relative;
+  top: 80px;
+  margin-bottom: 20px; 
+}
+.div7{
+  position : relative;
+  top: 80px;
+  margin-bottom: 20px; 
+}
+.div8{
+  position : relative;
+  top: 80px;
+  margin-bottom: 20px; 
+}
+.requete{
+  position : relative;
+  top: 5px;
+  left: 40px;
+  background-color: #000000;
+  background-color: #fff;
+  color :rgb(15, 15, 88);
+  width: 350px;
+  font-weight: 900;
+  border-radius: 10px;
+  padding: 5px 30px;
+  filter : drop-shadow(15px 8px 6px rgb(0, 4, 29))
+}
+.sql{
+  font-weight: 700;
+}
+.intros{
+  margin-top: 120px;
+  position : relative;
+  border-bottom: ridge;
+  padding-bottom: 2px;
+  width: 216px;
+  top: 25px;
+  left: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.defin{
+  position : relative;
+  left:50%;
+  top: 40px;
+  transform: translate(-50%, -50%);
+   margin-top: 30px;
+ 
+}
+.footer{
+margin-top: 100px;
+margin-left: 40%;
+border :2px solid white;
+width: 190px;
+text-align: center;
+padding-top: 5px;
+padding-bottom: 5px;
+font-weight: 700;
+margin-bottom: 5px;;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.difference{
+  margin-top: 130px;
+  position : relative;
+  left: 185px;
+
+}
+.rq{
+  position : relative;
+  left: 185px;
+}
+.requetes{
+  position : relative;
+  top: 5px;
+  left: 40px;
+  background-color: #000000;
+  background-color: #fff;
+  color :rgb(15, 15, 88);
+  width: 360px;
+  font-weight: 900;
+  border-radius: 50px 0 50px 0;
+  padding: 5px 80px;
+  filter : drop-shadow(15px 8px 6px rgb(0, 4, 29))
+}
+@media screen and (max-width: 768px) {
+  body{
+    overflow-x: scroll;
+  }
+  .Cours{
+    position: relative;
+    left: 90px;
+    color : rgb(241, 241, 241);
+  }
+  .nav-link{
+    position : relative;
+    left: 15px;
+  }
+  .titre1{
+    position : relative;
+    left :185px;
+  }
+  .intro{
+    position : relative;
+    left: 30px;
+  }
+   .defin{
+    position : relative;
+    bottom: 55px;
+    left: 125px;
+   }
+}

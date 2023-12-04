@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+body {
+     height: 100%; 
+     margin: 0; 
+     padding: 0 ;
+      background-image: linear-gradient(45deg, #020230, #020244);
+      display: grid;
+      /* place-items: center; */
+} 
+h1 {
+font-family: 'Luckiest Guy', cursive;
+font-size: 20vmin;
+line-height: 1;
+margin: 0;
+position : relative;
+top: 255px;
+letter-spacing: 0.075ch;
+color: hsl(0, 0%, 69%);
+text-align: center;
+--light-pos-x: 1; 
+--light-pos-y: -1; 
+--rim-size: .02ch;
+--shadow-offset: .2ch;
+--shadow-blur: .1ch;
+text-shadow: 
+calc(max(var(--rim-size), 1px) * var(--light-pos-x)) calc(max(var(--rim-size), 1px) * var(--light-pos-y)) hsl(229, 96%, 10%),
+calc(max(var(--rim-size), 1px) * var(--light-pos-x) * -1) calc(max(var(--rim-size), 1px) * var(--light-pos-y) * -1) hsl(229, 96%, 10%),
+calc(var(--shadow-offset) * var(--light-pos-x) * -1) calc(var(--shadow-offset) * var(--light-pos-y) * -1) var(--shadow-blur) hsl(0, 0%, 0%) ;
+animation: arrive 1.5s ease-out 0.5s both, curve 1s ease-out 2s both;
+}
+@keyframes arrive {
+    from {
+        opacity: 0;
+        transform: translateY(-150%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(50);
+    }
+}
+
+@keyframes curve {
+    from {
+        transform: translateY(250) perspective(250px) rotateX(80deg);
+    }
+    to {
+        transform: translateY(150) perspective(150px) rotateX(10deg);
+    }
+}
